@@ -7,7 +7,7 @@
 さぁ数字を入力して打球を飛ばせ！！
 
 ## ダウンロード方法
-インストール方法は以下の通りです。
+インストール方法は以下の通りです。  
 1, clone する。
 ```bash
 $ git clone https://github.com/N-Reon/robosys2024.git
