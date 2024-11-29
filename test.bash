@@ -8,19 +8,19 @@ ng (){
 
 res=0
 ###NORMAL INPUT###
-out=$(python3 ./kadai1 160 25)
+out=$(echo 160 25 | ./flight_distance)
 [ "${out}" = "打球飛距離は126 m" ] || ng "$LINENO"
 
-out=$(python3 ./kadai1 160 あ)
+out=$(echo 160 あ | ./flight_distance)
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(python3 ./kadai1 a b)
+out=$(echo a b | ./flight_distance)
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(python3 ./kadai1 a 16)
+out=$(echo a 16 | ./flight_distance)
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(python3 ./kadai1 ああ)
+out=$(echo あ あ | ./flight_distance)
 [ "${out}" = "" ] || ng "$LINENO"
 
 [ "$res" = 0 ] && echo OK

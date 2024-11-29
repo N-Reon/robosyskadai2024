@@ -1,13 +1,17 @@
 #!/usr/bin/python3
 # SPDX-FileCopyRightText: 2024 Reon Nuki s23c1102ek@s.chibakoudai.jp
-# SPDX-Licence-Identifier: BSD-3=Clause
+# SPDX-Licence-Identifier: BSD-3-Clause
 
 import math
 import sys
 
 #入力させるやつ
-a = int(sys.argv[1]) #打球速度入力
-b = int(sys.argv[2]) #打球角度入力
+
+ball_fast = sys.stdin.readline().strip().split()
+
+a = int(ball_fast[0]) #打球速度入力
+b = int(ball_fast[1]) #打球角度入力
+
 #条件
 g = 9.80665 #重力加速度
 ps = a * (1000 / 3600) #球速（m/s）

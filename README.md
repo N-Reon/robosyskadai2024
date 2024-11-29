@@ -6,10 +6,25 @@
 空気抵抗を無視して計算しているため  非現実的な打球飛距離が算出されることがあります。  
 さぁ数字を入力して打球を飛ばせ！！
 
+## ダウンロード方法
+インストール方法は以下の通りです。
+1, clone する。
+```bash
+$ git clone https://github.com/N-Reon/robosys2024.git
+```
+2, robosyskadai2024に移動する。
+```bash
+$ cd robosyskadai2024
+```
+3, 実行権限を付与する。
+```bash
+$ chmod +x flight_distance
+```
+
 ## 実行方法
 実行方法は以下の通りです。  
 ```bash
-$ python3 kadai1 打球速度(数字) 打球角度(数字)  
+$ ./flight_distance 打球速度(数字) 打球角度(数字)  
 ```
 --注意--  
 打球速度と打球角度に半角数字以外を入力するとエラーが出ます。
@@ -18,25 +33,15 @@ $ python3 kadai1 打球速度(数字) 打球角度(数字)
 実行例は以下の通りです。  
 実行例１    
 ```bash
-$ python3 kadai1 160 25  
+$ ./flight_distance 160 25  
 打球飛距離は126 m
 ```
 実行例２  
 ```bash
-$ python3 kadai1 190 31  
+$ ./flight_distance 190 31  
 打球飛距離は219 m
 ```
 
-## インストール方法
-インストール方法は以下の通りです。  
-1, clone する。  
-```bash
-git clone https://github.com/N-Reon/robosys2024.git  
-```
-2, robosys2024に移動する。
-```bash  
-cd robosys2024
-```
 ## ちょっとしたデータ
 2024年シーズン大谷選手の最高打球速度は191km/h  
 2024年シーズン柳田選手のオープン戦第1号の打球速度は182km/h  
@@ -57,7 +62,7 @@ https://www.sanspo.com/article/20240811-JQWM7XCZEBN4ZOPY5GH34LQ7UQ/?outputType=t
   - テスト済みバージョン: 3.7~3.10
 
 ## テスト環境
-- Ubuntu 22.24 LTS
+- Ubuntu 22.04 LTS
 
 @ 2024 Reon Nukui
 
