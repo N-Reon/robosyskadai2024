@@ -24,7 +24,7 @@ $ chmod +x flight_distance
 ## 実行方法
 実行方法は以下の通りです。  
 ```bash
-$ ./flight_distance 打球速度(数字) 打球角度(数字)  
+$ echo 打球速度(数字) 打球角度(数字) | ./flight_distance  
 ```
 --注意--  
 打球速度と打球角度に半角数字以外を入力するとエラーが出ます。
@@ -33,12 +33,12 @@ $ ./flight_distance 打球速度(数字) 打球角度(数字)
 実行例は以下の通りです。  
 実行例１    
 ```bash
-$ ./flight_distance 160 25  
+$ echo 160 25 | ./flight_distance  
 打球飛距離は126 m
 ```
 実行例２  
 ```bash
-$ ./flight_distance 190 31  
+$ echo 190 31 | ./flight_distance  
 打球飛距離は219 m
 ```
 
@@ -65,5 +65,3 @@ https://www.sanspo.com/article/20240811-JQWM7XCZEBN4ZOPY5GH34LQ7UQ/?outputType=t
 
 ## テスト環境
 - Ubuntu 22.04 LTS  
-
- 
