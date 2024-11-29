@@ -7,7 +7,7 @@
 さぁ数字を入力して打球を飛ばせ！！
 
 ## ダウンロード方法
-インストール方法は以下の通りです。  
+ダウンロード方法は以下の通りです。  
 1, clone する。
 ```bash
 $ git clone https://github.com/N-Reon/robosys2024.git
@@ -57,12 +57,13 @@ https://hiros-lab.com/barrelzone/
 https://keisan.casio.jp/exec/system/1204505751  
 https://nikkansports.com/baseball/news/202403140001569.html  
 https://www.sanspo.com/article/20240811-JQWM7XCZEBN4ZOPY5GH34LQ7UQ/?outputType=theme_baystars  
+
+© 2024 Reon Nukui
 ## 必要なソフトウェア
 - Python
   - テスト済みバージョン: 3.7~3.10
 
 ## テスト環境
-- Ubuntu 22.04 LTS
+- Ubuntu 22.04 LTS  
 
-@ 2024 Reon Nukui
-
+ 
