@@ -10,7 +10,7 @@
 利用方法は以下の通りです。  
 1, clone する。
 ```bash
-$ git clone https://github.com/N-Reon/robosys2024.git
+$ git clone https://github.com/N-Reon/robosyskadai2024.git
 ```
 2, robosyskadai2024に移動する。
 ```bash
