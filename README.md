@@ -62,7 +62,7 @@ https://baseball-infomation.com
 © 2024 Reon Nukui
 ## 必要なソフトウェア
 - Python
-  - テスト済みバージョン: 3.7~3.10
+  - テスト済みバージョン: 3.7~3.11
 
 ## テスト環境
 - Ubuntu 22.04 LTS  
