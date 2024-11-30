@@ -34,12 +34,12 @@ $ echo 打球速度(数字) 打球角度(数字) | ./flight_distance
 実行例１    
 ```bash
 $ echo 160 25 | ./flight_distance  
-打球飛距離は126 m
+126
 ```
 実行例２  
 ```bash
 $ echo 190 31 | ./flight_distance  
-打球飛距離は219 m
+219
 ```
 
 ## ちょっとしたデータ

@@ -59,4 +59,4 @@ F = k * e
 R = ((ps ** 2 * math.sin(2 * br)) / g) * F
 
 #結果の表示
-print('打球飛距離は%d m' % R)
+print('%d' % R)
