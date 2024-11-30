@@ -9,7 +9,7 @@ ng (){
 res=0
 ###NORMAL INPUT###
 out=$(echo 160 25 | ./flight_distance)
-[ "${out}" = "打球飛距離は126 m" ] || ng "$LINENO"
+[ "${out}" = "126" ] || ng "$LINENO"
 
 out=$(echo 160 あ | ./flight_distance)
 [ "${out}" = "" ] || ng "$LINENO"
