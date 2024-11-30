@@ -58,7 +58,7 @@ https://hiros-lab.com/barrelzone/
 https://keisan.casio.jp/exec/system/1204505751  
 https://nikkansports.com/baseball/news/202403140001569.html  
 https://www.sanspo.com/article/20240811-JQWM7XCZEBN4ZOPY5GH34LQ7UQ/?outputType=theme_baystars  
-https://baseball-infomation.com
+https://baseball-infomation.com  
 © 2024 Reon Nukui
 ## 必要なソフトウェア
 - Python
