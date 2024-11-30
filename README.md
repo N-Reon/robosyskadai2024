@@ -1,10 +1,10 @@
-# 打球飛距離計算コマンド
+# 打球がどれくらい飛ぶか気になりませんか？
 [![test](https://github.com/N-Reon/robosys2024/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/N-Reon/robosys2024/actions/workflows/test.yml)
 
 ## 概要
 このコマンドは打球速度と打球角度を入力すると打球飛距離を算出ことができます。  
 空気抵抗を無視して計算しているため  非現実的な打球飛距離が算出されることがあります。  
-さぁ数字を入力して打球を飛ばせ！！
+さぁ数字を入力して打球を飛ばせ！！  
 
 ## 利用方法
 利用方法は以下の通りです。  
@@ -50,7 +50,7 @@ $ echo 190 31 | ./flight_distance
 2021年シーズン村上選手の平均打球速度は148.5km/h  
 ホームランが出やすい角度は25~31度  
 2024年シーズン宮崎選手の第9号の打球角度は52度  
-
+NPB歴代トップの飛距離はカブレラ選手の180m弾　　
 ## ライセンス
 このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．  
 このコマンドは以下のサイトを参考にしています。  
@@ -58,7 +58,7 @@ https://hiros-lab.com/barrelzone/
 https://keisan.casio.jp/exec/system/1204505751  
 https://nikkansports.com/baseball/news/202403140001569.html  
 https://www.sanspo.com/article/20240811-JQWM7XCZEBN4ZOPY5GH34LQ7UQ/?outputType=theme_baystars  
-
+https://baseball-infomation.com
 © 2024 Reon Nukui
 ## 必要なソフトウェア
 - Python
